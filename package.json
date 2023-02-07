@@ -1,17 +1,26 @@
 {
-  "name": "objetoproccess",
+  "name": "coderhouse-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon npm src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunovalen/Coderhouse-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunovalen/Coderhouse-backend/issues"
+  },
+  "homepage": "https://github.com/brunovalen/Coderhouse-backend#readme",
   "dependencies": {
     "express": "^4.18.2",
     "minimist": "^1.2.7",
-    "node": "^18.13.0"
+    "nodemon": "^2.0.20"
   }
 }
